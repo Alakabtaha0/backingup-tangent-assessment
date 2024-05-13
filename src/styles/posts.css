@@ -1,0 +1,17 @@
+.display-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: calc(90vh - 50px);
+}
